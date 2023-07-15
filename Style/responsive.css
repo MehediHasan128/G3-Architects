@@ -1,0 +1,20 @@
+/* Mobile devices */
+@media screen and (max-width: 576px) {
+    header{
+        padding: 20px;
+    }
+    .logo{
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+    .navBar{
+        width: 100%;
+        flex-direction: column;
+    }
+    .mainNav li{
+        margin-left: 20px;
+    }
+    .banner-tilte{
+        font-size: 3rem;
+    }
+}
