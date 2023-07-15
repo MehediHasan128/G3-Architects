@@ -53,6 +53,30 @@
     .card-title{
         font-size: 1rem;
     }
+
+
+
+    /* sponsor design */
+    .sponsors{
+        padding: 0 1rem;
+    }
+    .sponsor-container{
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .sponsor-title{
+        font-size: 2rem;
+    }
+    .sponsor-description{
+        color: #727272;
+        line-height: 1.5rem;
+    }
+    .sponsor-container img{
+        margin-bottom: 40px;
+    }
+    .sponsor-container img:last-child{
+        margin-bottom: 0px;
+    }
     main{
         margin: 0;
     }
@@ -85,5 +109,32 @@
     }
     .teams-text-content{
         margin-bottom: 2rem;
+    }
+
+
+
+    /* Facts design */
+    .facts{
+        padding: 0 1rem;
+    }
+    .facts-card-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+        margin-top: 50px;
+    }
+    .card-stats{
+        font-size: 2rem;
+    }
+    .card-title{
+        font-size: 1rem;
+    }
+
+
+
+    /* sponsor design */
+    .sponsor-container{
+        flex-wrap: wrap;
+        gap: 20px;
     }
 }
