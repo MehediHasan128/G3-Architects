@@ -19,6 +19,23 @@
     .mainNav li:first-child{
         margin-left: 0px;
     }
+
+
+
+
+    /* teams section design */
+    .teams-container{
+        flex-direction: column-reverse; 
+    }
+    .teams-img-container{
+        grid-template-columns: 1fr;
+    }
+    .teams-text-content{
+        margin-bottom: 2rem;
+    }
+    main{
+        margin: 0;
+    }
 }
 
 
@@ -34,5 +51,17 @@
     }
     .mainNav li:first-child{
         margin-left: 0px;
+    }
+
+
+
+
+    /* Teams design */
+    .teams-container{
+        flex-direction: column-reverse; 
+    }
+    .teams-text-content{
+        padding: 0;
+        margin-bottom: 2rem;
     }
 }

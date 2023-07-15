@@ -37,6 +37,10 @@ header{
     background: transparent;
     transform: translateY(-5px);
 }
+main{
+    max-width: 1140px;
+    margin: 0 240px;
+}
 
 
 /* Nav Bar design */
@@ -87,4 +91,44 @@ header{
 }
 .banner img{
     width: 100%;
+}
+
+
+
+
+/* teams section design */
+.teams-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+.teams-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+.teams-img-container img{
+    width: 300px;
+}
+.teams-text-content{
+    padding: 0 4.3rem;
+}
+.teams-title{
+    font-size: 2.8rem;
+    font-weight: 500;
+    color: #727272;
+}
+.teams-title span:first-child{
+    color: black;
+    font-weight: 700;
+}
+.teams-title span:last-child{
+    color: #FF900E;
+    font-weight: 700;
+}
+.teams-description{
+    font-size: 1rem;
+    color: #424242;
+    margin: 24px 0 32px 0;
 }
