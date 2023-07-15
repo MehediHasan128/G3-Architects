@@ -57,11 +57,13 @@
 
 
     /* Teams design */
+    main{
+        margin: 0 50px;
+    }
     .teams-container{
         flex-direction: column-reverse; 
     }
     .teams-text-content{
-        padding: 0;
         margin-bottom: 2rem;
     }
 }
