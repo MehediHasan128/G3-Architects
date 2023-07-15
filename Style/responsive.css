@@ -31,8 +31,27 @@
         grid-template-columns: 1fr;
     }
     .teams-text-content{
-        padding: 0 1.5rem;
+        padding: 0 1rem;
         margin-bottom: 2rem;
+    }
+    
+
+
+    /* Facts design */
+    .facts{
+        padding: 0 1rem;
+    }
+    .facts-card-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        margin-top: 50px;
+    }
+    .card-stats{
+        font-size: 2rem;
+    }
+    .card-title{
+        font-size: 1rem;
     }
     main{
         margin: 0;
