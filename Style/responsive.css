@@ -34,7 +34,35 @@
         padding: 0 1rem;
         margin-bottom: 2rem;
     }
-    
+
+    /* features design */
+    .features{
+        padding: 0 1rem;
+        flex-direction: column;
+    }
+    .teatures-title h1{
+        font-size: 2rem;
+    }
+    .features-img-content{
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 50px;
+    }
+    .features-img-content img{
+        width: 100%;
+    }
+    .exp{
+        left: 90px;
+        bottom: 50px;
+        width: 120px;
+        padding: 1rem;
+    }
+    .exp h1{
+        font-size: 2rem;
+    }
+    .exp p{
+        font-size: 1rem;
+    }
 
 
     /* Facts design */
@@ -109,6 +137,33 @@
     }
     .teams-text-content{
         margin-bottom: 2rem;
+    }
+    
+    
+    /* features design */
+    .features{
+        padding: 0 1rem;
+        flex-direction: column;
+    }
+    .features-img-content{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 50px;
+    }
+    .features-img-content img{
+        width: 100%;
+    }
+    .exp{
+        left: 200px;
+        bottom: 50px;
+        width: 120px;
+        padding: 1rem;
+    }
+    .exp h1{
+        font-size: 2rem;
+    }
+    .exp p{
+        font-size: 1rem;
     }
 
 
